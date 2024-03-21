@@ -12,7 +12,7 @@ class PasswordRule implements ValidationRule
      *
      * @param  \Closure(string): \Illuminate\Translation\PotentiallyTranslatedString  $fail
      */
-    public function validate(string $attribute, mixed $value, $fail): void
+    public function validate(string $attribute, mixed $value, Closure $fail): void
     {
         //
     }
